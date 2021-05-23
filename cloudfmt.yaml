@@ -1,0 +1,12 @@
+Resources:
+  MyAthenaDataCatalog:
+    Type: AWS::Athena::DataCatalog
+    Properties:
+      Name: MyTestCatalog2
+      Type: GLUE
+      Description: MyTestCatalog2
+      Tags:
+        - Key: key1
+          Value: value1
+      Parameters:
+        catalog-id: 533331276636
