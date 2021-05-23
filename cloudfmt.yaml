@@ -2,9 +2,9 @@ Resources:
   MyAthenaDataCatalog:
     Type: AWS::Athena::DataCatalog
     Properties:
-      Name: MyTestCatalog2
+      Name: MyTestCatalog3
       Type: GLUE
-      Description: MyTestCatalog2
+      Description: MyTestCatalog3
       Tags:
         - Key: key1
           Value: value1
